@@ -1,7 +1,10 @@
 body{
     background-color:#1F2937;
+    font-family: 'Comfortaa', cursive;
 }
 
+.container-header{
+}
 
 .header{
     font-size:24px;
@@ -11,11 +14,65 @@ body{
     gap:12px;
     justify-content:space-between;
     margin-left:10%;
+    font-weight:bold;
 }
 
-.header-links{
+.header .header-links{
     font-size:18px;
     margin-right:10%;
     display:flex;
-    gap:8px;
+    gap:20px;
+    font-weight:400;
 }
+
+.awesome-site{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin-top:2.5%;
+    margin-left:10%;
+    font-size:48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    float:left;
+    width:30%;
+}
+
+.awesome-site > .main-hero-text{
+    display:flex;
+    width:70%;
+}
+
+.awesome-site > .subtext{
+    display:flex;
+    font-size:18px;
+    color:#E5E7EB;
+    font-weight:100;
+    width:65%;
+    flex:wrap;
+}
+
+.awesome-site > .signup{
+    background:#3882f6;
+    color:#F9FAF8;
+    padding:8px;
+    width:140px;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:18px;
+    border:none;
+    border-radius:10px;
+}
+
+.aurora{
+    display:flex;
+    width:auto;
+    height:500px;
+    float:right;
+    margin-top:2.5%;
+    margin-right:15%;
+    border-radius:5%;
+}
+
+
+

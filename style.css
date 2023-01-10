@@ -10,7 +10,12 @@ body{
     align-items:center;
     gap:12px;
     justify-content:space-between;
+    margin-left:10%;
 }
 
-.cool-page{
+.header-links{
+    font-size:18px;
+    margin-right:10%;
+    display:flex;
+    gap:8px;
 }

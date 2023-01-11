@@ -1,78 +1,76 @@
-body{
-    background-color:#1F2937;
+* {
+    background:#1F2937;
     font-family: 'Comfortaa', cursive;
-}
-
-.container-header{
+    width:auto;
 }
 
 .header{
-    font-size:24px;
-    color:#F9FAF8;
     display:flex;
-    align-items:center;
-    gap:12px;
-    justify-content:space-between;
+    flex-direction:row;
     margin-left:10%;
-    font-weight:bold;
+    justify-content:start;
 }
 
-.header .header-links{
+.logo{
+    display:flex;
+    margin-top:10px;
+    font-size:24px;
+    color:#f9faf8;
+    justify-content:start;
+    width:100%;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
     font-size:18px;
     margin-right:10%;
-    display:flex;
-    gap:20px;
-    font-weight:400;
-}
-
-.awesome-site{
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    margin-top:2.5%;
-    margin-left:10%;
-    font-size:48px;
-    font-weight:bolder;
-    color:#F9FAF8;
-    float:left;
-    width:30%;
-}
-
-.awesome-site > .main-hero-text{
-    display:flex;
-    width:70%;
-}
-
-.awesome-site > .subtext{
-    display:flex;
-    font-size:18px;
     color:#E5E7EB;
-    font-weight:100;
-    width:65%;
-    flex:wrap;
+    gap:16px;
+    justify-content:end;
+    width:100%;
 }
 
-.awesome-site > .signup{
-    background:#3882f6;
-    color:#F9FAF8;
-    padding:8px;
-    width:140px;
-    font-weight:bold;
-    font-size:18px;
-    margin-top:18px;
+.container{
+    display:flex;
+    margin-top:70px;
+}
+
+.grid-container-one{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-right:10%;
+    margin-left:10%;
+    justify-content:space-between;
+    flex-direction:column;
+    width:100%;
+}
+
+.awesome-web{
+    color:#f9faf8;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.awesome-web-sub{
+    grid-area: 2 / 1 / 3 / 2;
+    width:30vw;
+    color:#f9faf8
+}
+
+.sign-up-one{
+    border-radius:10px;
     border:none;
+    background:#3882F6;
+}
+
+.image-one{
+    margin-right:10%;
+    margin-left:10%;
+    width:30%;
+    float:right;
     border-radius:10px;
 }
-
-.aurora{
-    display:flex;
-    width:auto;
-    height:500px;
-    float:right;
-    margin-top:2.5%;
-    margin-right:15%;
-    border-radius:5%;
-}
-
-
 

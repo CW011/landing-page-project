@@ -212,3 +212,16 @@
 }
 
 /* footer */
+
+.footer{
+    background:#1F2937;
+    height:80px;
+    width:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color:#f9faf8;
+}
